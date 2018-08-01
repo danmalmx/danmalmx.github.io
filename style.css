@@ -1,0 +1,27 @@
+nav, ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #aab7b8 ;
+}
+
+li {
+    float: left;
+}
+
+li a, form {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    width: 49px;
+}
+
+li a:hover {
+    background-color: #28b463 ;
+}
+img{
+    border-radius: 80%;
+}
