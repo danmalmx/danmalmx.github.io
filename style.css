@@ -18,10 +18,12 @@ li a {
     padding: 12px;
     text-decoration: none;
     width: 49px;
+    height: 65px;
+    line-height: 65px;
 }
 
 li a:hover {
-    background-color:   #1700fe;
+    background-color:   #1400ec;
 }
 
 p{
