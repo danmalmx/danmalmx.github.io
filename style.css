@@ -10,7 +10,7 @@ li {
     float: left;
 }
 
-li a, form {
+li a {
     display: inline-flex;
     color: white;
     text-align: center;
@@ -24,4 +24,8 @@ li a:hover {
 }
 img {
     border-radius: 20%;
+}
+form {
+    display: inline;
+    align: left;
 }
