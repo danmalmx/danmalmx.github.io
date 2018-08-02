@@ -26,24 +26,29 @@ li a:hover {
     background-color:   #1700fe;
 }
 
-form {
-    display: inline;
-    align: left;
-}
-
 p{
     color: var(--heading-color);
     box-shadow: 3px 3px 40px var(--shadow-color);
 }
-.lvid {
+.vid {
     display: left;
     align-items: left;
 }
-.rvid {
-    display: right;
-    align-items: right;
-}
+
 .mui--appbar-height img {
     border: 1px solid white;
     border-radius: 10%;
     vertical-align: middle;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+   }
+   
+   /* Clear floats after image containers */
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   }
