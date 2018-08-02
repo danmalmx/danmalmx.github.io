@@ -20,12 +20,17 @@ li a {
 }
 
 li a:hover {
-    background-color: #201780;
+    background-color:   #1700fe;
 }
 img {
-    border-radius: 20%;
+    border-color: white;
+    border-style: 10px;
 }
 form {
     display: inline;
     align: left;
+}
+p{
+    color: var(--heading-color);
+    box-shadow: 3px 3px 40px var(--shadow-color);
 }
