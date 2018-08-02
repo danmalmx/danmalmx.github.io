@@ -12,12 +12,14 @@ li {
 }
 
 li a {
-    display: inline-flex;
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 12px;
     text-decoration: none;
     width: 49px;
+    height: 65px;
+    line-height: 65px;
 }
 
 li a:hover {
@@ -34,14 +36,14 @@ p{
     box-shadow: 3px 3px 40px var(--shadow-color);
 }
 .lvid {
-    margin: top;
-    align: left;
+    display: left;
+    align-items: left;
 }
 .rvid {
-    margin: top;
-    align: right;
+    display: right;
+    align-items: right;
 }
 .mui--appbar-height img {
     border: 1px solid white;
     border-radius: 10%;
-    
+    vertical-align: middle;
