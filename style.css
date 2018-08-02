@@ -30,16 +30,13 @@ p{
     color: var(--heading-color);
     box-shadow: 3px 3px 40px var(--shadow-color);
 }
-.vid {
-    display: left;
-    align-items: left;
-}
 
 .mui--appbar-height img {
     border: 1px solid white;
     border-radius: 10%;
     vertical-align: middle;
 }
+
 .column {
     float: left;
     width: 33.33%;
