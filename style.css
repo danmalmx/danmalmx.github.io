@@ -8,6 +8,7 @@ nav, ul {
 
 li {
     float: left;
+    vertical-align: center;
 }
 
 li a {
@@ -36,12 +37,10 @@ p{
 }
 .left-video {
     margin: auto;
-    position: inherit;
     text-align: left;
     align-content: left;
 }
 .righ-video {
     margin: auto;
-    position: inherit;
     text-align: right;
     align-content: right;
