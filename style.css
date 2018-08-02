@@ -23,24 +23,25 @@ li a {
 li a:hover {
     background-color:   #1700fe;
 }
-img {
-    border-color: white;
-    border-style: 10px;
-}
+
 form {
     display: inline;
     align: left;
 }
+
 p{
     color: var(--heading-color);
     box-shadow: 3px 3px 40px var(--shadow-color);
 }
-.left-video {
-    margin: auto;
-    text-align: left;
-    align-content: left;
+.lvid {
+    margin: top;
+    align: left;
 }
-.righ-video {
-    margin: auto;
-    text-align: right;
-    align-content: right;
+.rvid {
+    margin: top;
+    align: right;
+}
+.mui--appbar-height img {
+    border: 1px solid white;
+    border-radius: 10%;
+    
