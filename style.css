@@ -34,3 +34,12 @@ p{
     color: var(--heading-color);
     box-shadow: 3px 3px 40px var(--shadow-color);
 }
+.left-video {
+    margin: auto;
+    position: inherit;
+    align-content: left;
+}
+.righ-video {
+    margin: auto;
+    position: inherit;
+    align-content: right;
