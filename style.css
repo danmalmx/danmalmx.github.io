@@ -40,7 +40,7 @@ p{
 .column {
     float: left;
     width: 33.33%;
-    padding: 5px;
+    padding: 50px;
     column-gap: 10px;
    }
    
