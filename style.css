@@ -1,3 +1,4 @@
+}
 nav, ul {
     list-style-type: none;
     margin: 0;
@@ -25,11 +26,6 @@ li a:hover {
     background-color:   #1400ec;
 }
 
-p{
-    color: var(--heading-color);
-    box-shadow: 3px 3px 40px var(--shadow-color);
-}
-
 .mui--appbar-height img {
 
     border: 1px solid white;
@@ -37,12 +33,25 @@ p{
     vertical-align: middle;
 }
 
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    border-radius: 15px;
+    background:#f2f3f4;
+         
+    text: white;
+
+}
+
 .column {
     float: left;
-    width: 33.33%;
-    padding: 50px;
+    width: 40%;
+    padding: 20px;
     column-gap: 10px;
-   }
+    align: center;
+
+}
    
    /* Clear floats after image containers */
    .row::after {
